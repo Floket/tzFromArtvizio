@@ -1,0 +1,69 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+
+}
+
+.navbar__wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.library{
+    width: 100%;
+    display: flex;
+justify-content: space-around;
+}
+
+.library__wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.book{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 10px 0.5%;
+    width: 32%;
+    height: 350px;
+
+}
+
+.edit-link{
+    text-align: center;
+}
+.book-text{
+    padding: 15px 10px;
+}
+.book-text span{
+    display: block;
+    padding-top: 5px;
+}
+
+/* newpost section*/
+.psot{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.post__wrapper{
+    width: 60%;
+}
+
+.post__wrapper input{
+    width: 100%;
+}
+
+.post__wrapper span{
+    display: block;
+    margin-top: 10px;
+}
+
+.psot__alert{
+    width: 100%;
+}
